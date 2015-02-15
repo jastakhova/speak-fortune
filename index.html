@@ -1,0 +1,14 @@
+<html>
+<head>
+    <script type="text/javascript" src="js/mespeak.js"></script>
+    <script type="text/javascript" src="js/speak_fortune.js"></script>
+    <script type="text/javascript">
+        meSpeak.loadConfig("js/mespeak_config.json");
+        meSpeak.loadVoice('voices/en/en.json');
+    </script>
+</head>
+<body>
+  <button onclick="speakFortune()">Click me!</button>
+  <audio id="thunder_audio" src="sounds/thunder.mp3"></audio>
+</body>
+</html>
